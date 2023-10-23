@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightslategrey;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.computer,
+.player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.row {
+  display: flex;
+  height: 300px;
+  background-color: lightgreen;
+  gap: 3rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dice {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  color: black;
+  font-weight: bold;
+}
+
+.lightblue {
+  background-color: lightblue;
+}
+
+.lightcoral {
+  background-color: lightcoral;
+}
+
+.winner-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+#try {
+  width: 30%;
+}
